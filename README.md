@@ -2,6 +2,11 @@
 
 **Objective** An app that adds more time to your day by selecting a personalized outfit days in advance based on local weather and what's in your wardrobe.
 
+## Video Walkthrough
+![Walkthrough]()
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
 ## Stand-Ups
 - [x] (Team Collab 101) Google drive, git branch, Private Slack channels
 - [x] (UX)Wireframes
@@ -11,12 +16,6 @@
 - [x] (Backend)Weather API
 - [ ] (AI)Give new clothing suggestions from Amazon based on usual outfit patterns
 
-
-
-## Video Walkthrough
-![Walkthrough]()
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Useful Links
 - [Google Drive](https://drive.google.com/drive/folders/1NEH5iKR9rI5vAU2TSFlOcVpqjsAgRVi3?usp=sharing)
