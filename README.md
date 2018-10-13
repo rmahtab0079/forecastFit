@@ -3,10 +3,12 @@
 **Objective** To do XYZ By 123
 
 ## Stand-ups
-- [ ] (Team Collab 101) Google drive, git branch, Private Slack channels
-- [ ] (UX)Wireframes
-- [ ] (UI)Assets and Labels
-- [ ] (Backend)Weather API Logic
+- [x] (Team Collab 101) Google drive, git branch, Private Slack channels
+- [ ] (UX)Wireframes: The Ideal
+- [ ] (UI)Homescreen Dumb Down
+- [ ] (UI)UploadImage View
+- [ ] (Network)Weather API + Logic
+- [ ] (Backend)Google Cloud Firbase DB for photos
 
 
 
