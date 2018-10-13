@@ -15,7 +15,8 @@ class UploadViewController: UIViewController {
     @IBOutlet weak var uploadImage: UIImageView!
     @IBOutlet weak var downloadImage: UIImageView!
     
-    let filename = "upload.jpg"
+    var filename = "upload.jpg"
+    var add = 0
     
     var imageReference: StorageReference {
         return Storage.storage().reference().child("images")
@@ -25,11 +26,13 @@ class UploadViewController: UIViewController {
         super.viewDidLoad()
         
         downloadImage.contentMode = .scaleAspectFit
-
     }
     
     @IBAction func onUploadTapped(_ sender: Any) {
         //TODO: upload
+        self.add += 1
+        filename = "upload\(self.add).jpg"
+        
         guard let image = uploadImage.image else { return }
         guard let imageData = image.jpegData(compressionQuality: 1) else { return }
         
@@ -39,12 +42,6 @@ class UploadViewController: UIViewController {
             print(metadata ?? "NO METADATA")
             print(error ?? "NO ERROR")
         }
-        
-        /*
-        let observer = uploadTask.observe(.progress) { snapshot in
-            // A progress event occurred
-        }
-        */
         
         uploadTask.observe(.success) { snapshot in
             // Upload completed successfully
