@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		499F49A12171C4AF00A68557 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499F49A02171C4AF00A68557 /* AppDelegate.swift */; };
-		499F49A32171C4AF00A68557 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499F49A22171C4AF00A68557 /* ViewController.swift */; };
 		499F49A62171C4AF00A68557 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499F49A42171C4AF00A68557 /* Main.storyboard */; };
 		499F49A82171C4B100A68557 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499F49A72171C4B100A68557 /* Assets.xcassets */; };
 		499F49AB2171C4B100A68557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499F49A92171C4B100A68557 /* LaunchScreen.storyboard */; };
+		499F49B42171DAC500A68557 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499F49B32171DAC500A68557 /* HomeViewController.swift */; };
 		A2052BB81327D5527A1EA9B2 /* Pods_forecastFit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DDAFF4F767EB55F5654EDC3 /* Pods_forecastFit.framework */; };
 /* End PBXBuildFile section */
 
@@ -19,11 +19,11 @@
 		1DDAFF4F767EB55F5654EDC3 /* Pods_forecastFit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_forecastFit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		499F499D2171C4AF00A68557 /* forecastFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = forecastFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		499F49A02171C4AF00A68557 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		499F49A22171C4AF00A68557 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		499F49A52171C4AF00A68557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		499F49A72171C4B100A68557 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		499F49AA2171C4B100A68557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		499F49AC2171C4B100A68557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		499F49B32171DAC500A68557 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4C5CCCAB46F5C530EDB13832 /* Pods-forecastFit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-forecastFit.release.xcconfig"; path = "Pods/Target Support Files/Pods-forecastFit/Pods-forecastFit.release.xcconfig"; sourceTree = "<group>"; };
 		714C5E10FFA6EDEADC0C01CF /* Pods-forecastFit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-forecastFit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-forecastFit/Pods-forecastFit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,14 +61,22 @@
 		499F499F2171C4AF00A68557 /* forecastFit */ = {
 			isa = PBXGroup;
 			children = (
+				499F49B22171DAA900A68557 /* Controllers */,
 				499F49A02171C4AF00A68557 /* AppDelegate.swift */,
-				499F49A22171C4AF00A68557 /* ViewController.swift */,
 				499F49A42171C4AF00A68557 /* Main.storyboard */,
 				499F49A72171C4B100A68557 /* Assets.xcassets */,
 				499F49A92171C4B100A68557 /* LaunchScreen.storyboard */,
 				499F49AC2171C4B100A68557 /* Info.plist */,
 			);
 			path = forecastFit;
+			sourceTree = "<group>";
+		};
+		499F49B22171DAA900A68557 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				499F49B32171DAC500A68557 /* HomeViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		54F80F0079C66907E169CD21 /* Frameworks */ = {
@@ -212,8 +220,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				499F49A32171C4AF00A68557 /* ViewController.swift in Sources */,
 				499F49A12171C4AF00A68557 /* AppDelegate.swift in Sources */,
+				499F49B42171DAC500A68557 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
