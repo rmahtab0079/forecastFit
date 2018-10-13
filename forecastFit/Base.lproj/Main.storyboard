@@ -17,7 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-<<<<<<< HEAD
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_splash" translatesAutoresizingMaskIntoConstraints="NO" id="oQi-t9-sXv">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -35,42 +34,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="50"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-=======
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="High" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fg2-UF-gML">
-                                <rect key="frame" x="85" y="184" width="36" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Weather Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wb6-3g-4ty">
-                                <rect key="frame" x="109" y="280" width="157" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Low" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0k0-KO-A12">
-                                <rect key="frame" x="247" y="184" width="31" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
->>>>>>> 834ed5453fc4ed15cfaf412d825a7f7597fb1e34
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-<<<<<<< HEAD
-                    <navigationItem key="navigationItem" id="lrQ-8r-qOD"/>
-=======
-                    <connections>
-                        <outlet property="highTemperatureLabel" destination="Fg2-UF-gML" id="xIS-jH-WHI"/>
-                        <outlet property="lowTemperatureLabel" destination="0k0-KO-A12" id="Cja-dZ-yk6"/>
-                        <outlet property="weatherDescriptionLabel" destination="wb6-3g-4ty" id="qe2-wL-SF5"/>
-                    </connections>
->>>>>>> 834ed5453fc4ed15cfaf412d825a7f7597fb1e34
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -177,10 +146,10 @@
             </objects>
             <point key="canvasLocation" x="3184.8000000000002" y="23.838080959520241"/>
         </scene>
-        <!--View Controller-->
+        <!--Camera View Controller-->
         <scene sceneID="57c-y7-Ffq">
             <objects>
-                <viewController id="7V6-xn-Wyh" sceneMemberID="viewController">
+                <viewController id="7V6-xn-Wyh" customClass="CameraViewController" customModule="forecastFit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ti7-rm-JAI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -188,6 +157,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ysA-uY-PFM">
                                 <rect key="frame" x="0.0" y="64" width="112" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bay-XT-c23">
                                 <rect key="frame" x="-4" y="566" width="383" height="101"/>
@@ -210,6 +180,9 @@
                             </button>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="imageToCamera" destination="ysA-uY-PFM" id="qiq-Ag-nYl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GKl-cP-xK9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -259,8 +232,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="32p-g0-qCa">
-                                <rect key="frame" x="233" y="194" width="38" height="37"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="46" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="32p-g0-qCa">
+                                <rect key="frame" x="233" y="194" width="39" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <nil key="textColor"/>
@@ -270,11 +243,22 @@
                         <color key="backgroundColor" red="0.52939920097232029" green="0.55897830310880825" blue="0.53099972049553579" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="1IX-Xa-6FO"/>
                     </view>
-                    <navigationItem key="navigationItem" id="TCL-OJ-ufO"/>
+                    <navigationItem key="navigationItem" id="TCL-OJ-ufO">
+                        <barButtonItem key="rightBarButtonItem" title="Ideal" style="plain" id="mdB-y4-A5q">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XJO-xq-tTT">
+                                <rect key="frame" x="276" y="7" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Ideal"/>
+                                <connections>
+                                    <segue destination="cts-bB-NL6" kind="show" id="JC9-EW-Mzx"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
-                        <outlet property="highTemperatureLabel" destination="ofz-m3-pIL" id="vow-mK-miN"/>
-                        <outlet property="lowTemperatureLabel" destination="32p-g0-qCa" id="YTa-Jd-xIO"/>
-                        <outlet property="weatherDescriptionLabel" destination="aPY-TS-wBE" id="lAT-fE-3vT"/>
+                        <outlet property="highLabel" destination="ofz-m3-pIL" id="KbJ-Rw-sO1"/>
+                        <outlet property="lowLabel" destination="32p-g0-qCa" id="xs7-kt-GV8"/>
+                        <outlet property="weatherLabel" destination="aPY-TS-wBE" id="DaK-67-cmJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VQN-hf-h3a" userLabel="First Responder" sceneMemberID="firstResponder"/>
