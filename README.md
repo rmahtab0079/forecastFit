@@ -1,4 +1,18 @@
 # *Forecast Fit*
+<<<<<<< HEAD
+=======
+
+**Objective** An app that adds more time to your day by selecting a personalized outfit days in advance based on local weather and what's in your wardrobe.
+
+## Stand-ups
+- [x] (Team Collab 101) Google drive, git branch, Private Slack channels
+- [x] (UX)Wireframes
+- [x] (UI)View-Controller Setup
+- [x] (UI)Assets and Labels
+- [x] (Backend)Save outfits to Firebase
+- [ ] (Backend)Weather API
+
+>>>>>>> 834ed5453fc4ed15cfaf412d825a7f7597fb1e34
 
 **Objective** An app that adds more time to your day by selecting a personalized outfit days in advance based on local weather and what's in your wardrobe.
 
@@ -27,7 +41,11 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Roadblocks
 - Connecting regular view-controller to tab view-Controller
 - Git Branches and merge conflicts. We spent out night getting to the crux of this.
+<<<<<<< HEAD
 - Camera implementation.
+=======
+- Camera implementation. 
+>>>>>>> 834ed5453fc4ed15cfaf412d825a7f7597fb1e34
 
 
 ## License
