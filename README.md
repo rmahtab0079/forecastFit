@@ -3,7 +3,7 @@
 **Objective** An app that adds more time to your day by selecting a personalized outfit days in advance based on local weather and what's in your wardrobe.
 
 ## Video Walkthrough
-![Walkthrough]()
+> ![Walkthrough](DemoHack.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -22,6 +22,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 - [Slack](https://hackcooper2018.slack.com/messages/GDCK857JL/details/) * click on 'channels' for ui / backend specific chit chat*
 - [IBM Documentation](https://developer.ibm.com/patterns/)
 - [IBM Walkthrough](https://github.com/Bluemix-Watson-Labs/Agenda-WDC-April-2018)
+- [Google AutoML](https://cloud.google.com/vision/docs/crop-hints)
 
 
 ## Roadblocks
