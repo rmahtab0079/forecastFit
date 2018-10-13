@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34FFC62A2171E8C800703E98 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FFC6292171E8C800703E98 /* UploadViewController.swift */; };
+		34FFC62C2171F1B300703E98 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 34FFC62B2171F1B200703E98 /* GoogleService-Info.plist */; };
 		499F49A12171C4AF00A68557 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499F49A02171C4AF00A68557 /* AppDelegate.swift */; };
 		499F49A62171C4AF00A68557 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499F49A42171C4AF00A68557 /* Main.storyboard */; };
 		499F49A82171C4B100A68557 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499F49A72171C4B100A68557 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 
 /* Begin PBXFileReference section */
 		1DDAFF4F767EB55F5654EDC3 /* Pods_forecastFit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_forecastFit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FFC6292171E8C800703E98 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		34FFC62B2171F1B200703E98 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		499F499D2171C4AF00A68557 /* forecastFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = forecastFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		499F49A02171C4AF00A68557 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		499F49A52171C4AF00A68557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -67,6 +71,7 @@
 				499F49A72171C4B100A68557 /* Assets.xcassets */,
 				499F49A92171C4B100A68557 /* LaunchScreen.storyboard */,
 				499F49AC2171C4B100A68557 /* Info.plist */,
+				34FFC62B2171F1B200703E98 /* GoogleService-Info.plist */,
 			);
 			path = forecastFit;
 			sourceTree = "<group>";
@@ -75,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				499F49B32171DAC500A68557 /* HomeViewController.swift */,
+				34FFC6292171E8C800703E98 /* UploadViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -157,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				499F49AB2171C4B100A68557 /* LaunchScreen.storyboard in Resources */,
+				34FFC62C2171F1B300703E98 /* GoogleService-Info.plist in Resources */,
 				499F49A82171C4B100A68557 /* Assets.xcassets in Resources */,
 				499F49A62171C4AF00A68557 /* Main.storyboard in Resources */,
 			);
@@ -221,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				499F49A12171C4AF00A68557 /* AppDelegate.swift in Sources */,
+				34FFC62A2171E8C800703E98 /* UploadViewController.swift in Sources */,
 				499F49B42171DAC500A68557 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
