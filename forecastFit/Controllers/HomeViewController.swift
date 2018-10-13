@@ -14,8 +14,9 @@ class HomeViewController: UIViewController {
     
     @IBOutlet weak var lowTemperatureLabel: UILabel!
     
-    @IBOutlet var weatherDescriptionLabel: UIView!
+    @IBOutlet weak var weatherDescriptionLabel: UILabel!
     
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         let url = URL(string: "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22nome%2C%20ny%22)&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys")!
@@ -26,12 +27,25 @@ class HomeViewController: UIViewController {
                 print(error.localizedDescription)
             } else if let data = data{
                 let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
-                print(dataDictionary)
+//                print(dataDictionary)
                 let query = dataDictionary["query"] as! [String: Any]
-                print(query)
+                let results = query["results"] as! [String: Any]
+                let channel = results["channel"] as! [String: Any]
+                let item = channel["item"] as! [String: Any]
+                let forecast = item["forecast"] as! [[String: Any]]
+                let today = forecast[0]
+                let highTemp = today["high"] as! String
+                let lowTemp = today["high"] as! String
+                let weatherDescription = today["text"] as! String
+                self.highTemperatureLabel.text = highTemp
+                self.lowTemperatureLabel.text = lowTemp
+                self.weatherDescriptionLabel.text = weatherDescription
+                
             }
-        // Do any additional setup after loading the view.
         }
+        task.resume()
+        
+        // Do any additional setup after loading the view.
     
 
     /*

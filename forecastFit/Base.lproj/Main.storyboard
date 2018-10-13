@@ -45,7 +45,7 @@
                     <connections>
                         <outlet property="highTemperatureLabel" destination="Fg2-UF-gML" id="xIS-jH-WHI"/>
                         <outlet property="lowTemperatureLabel" destination="0k0-KO-A12" id="Cja-dZ-yk6"/>
-                        <outlet property="weatherDescriptionLabel" destination="8bC-Xf-vdC" id="f4q-FE-Uon"/>
+                        <outlet property="weatherDescriptionLabel" destination="wb6-3g-4ty" id="qe2-wL-SF5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
