@@ -12,6 +12,7 @@
 		499F49A82171C4B100A68557 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499F49A72171C4B100A68557 /* Assets.xcassets */; };
 		499F49AB2171C4B100A68557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499F49A92171C4B100A68557 /* LaunchScreen.storyboard */; };
 		499F49B42171DAC500A68557 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499F49B32171DAC500A68557 /* HomeViewController.swift */; };
+		89D89769217231EE003AC75C /* TemperatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D89768217231EE003AC75C /* TemperatureViewController.swift */; };
 		A2052BB81327D5527A1EA9B2 /* Pods_forecastFit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DDAFF4F767EB55F5654EDC3 /* Pods_forecastFit.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		499F49B32171DAC500A68557 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4C5CCCAB46F5C530EDB13832 /* Pods-forecastFit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-forecastFit.release.xcconfig"; path = "Pods/Target Support Files/Pods-forecastFit/Pods-forecastFit.release.xcconfig"; sourceTree = "<group>"; };
 		714C5E10FFA6EDEADC0C01CF /* Pods-forecastFit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-forecastFit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-forecastFit/Pods-forecastFit.debug.xcconfig"; sourceTree = "<group>"; };
+		89D89768217231EE003AC75C /* TemperatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				499F49B32171DAC500A68557 /* HomeViewController.swift */,
+				89D89768217231EE003AC75C /* TemperatureViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			files = (
 				499F49A12171C4AF00A68557 /* AppDelegate.swift in Sources */,
 				499F49B42171DAC500A68557 /* HomeViewController.swift in Sources */,
+				89D89769217231EE003AC75C /* TemperatureViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
