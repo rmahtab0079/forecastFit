@@ -25,6 +25,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 - [Google AutoML](https://cloud.google.com/vision/docs/crop-hints)
 
 
+
 ## Roadblocks
 - Connecting regular view-controller to tab view-Controller
 - Git Branches and merge conflicts. We spent out night getting to the crux of this.
