@@ -1,4 +1,4 @@
-# *sweaterWeather1*
+# *sweaterWeather*
 
 **Objective** To do XYZ By 123
 
@@ -25,11 +25,11 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Roadblocks
 - Trying to recreate TypeForm, we wanted to seamlessly transition to the next question without the user "clicking" - trigger when the user hit enter. Solution:
-    ```javascript
-    onKeyDown="if(event.keyCode==13) location.href='#apply3';"
-    ```
+```javascript
+onKeyDown="if(event.keyCode==13) location.href='#apply3';"
+```
 
-   Change `http://resources.infolinks.com/js/infolinks_main.js` to `//resources.infolinks.com/js/infolinks_main.js` or `httpS://resources.infolinks.com/js/infolinks_main.js`
+Change `http://resources.infolinks.com/js/infolinks_main.js` to `//resources.infolinks.com/js/infolinks_main.js` or `httpS://resources.infolinks.com/js/infolinks_main.js`
 
 
 ## License
