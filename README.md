@@ -1,12 +1,14 @@
-# *ForecastFit*
+# *Forecast Fit*
 
-**Objective** To do XYZ By 123
+**Objective** An app that adds more time to your day by selecting a personalized outfit days in advance based on local weather and what's in your wardrobe.
 
 ## Stand-ups
-- [ ] (Team Collab 101) Google drive, git branch, Private Slack channels
-- [ ] (UX)Wireframes
-- [ ] (UI)Assets and Labels
-- [ ] (Backend)Weather API Logic
+- [x] (Team Collab 101) Google drive, git branch, Private Slack channels
+- [x] (UX)Wireframes
+- [x] (UI)View-Controller Setup
+- [x] (UI)Assets and Labels
+- [x] (Backend)Save outfits to Firebase
+- [ ] (Backend)Weather API
 
 
 
@@ -20,20 +22,16 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 - [Slack](https://hackcooper2018.slack.com/messages/GDCK857JL/details/) * click on 'channels' for ui / backend specific chit chat*
 - [IBM Documentation](https://developer.ibm.com/patterns/)
 - [IBM Walkthrough](https://github.com/Bluemix-Watson-Labs/Agenda-WDC-April-2018)
-- [NodeRed Setup](https://medium.com/@helenflam/setting-up-node-red-7bd398e2ffde)
 
 
 ## Roadblocks
-- Trying to recreate TypeForm, we wanted to seamlessly transition to the next question without the user "clicking" - trigger when the user hit enter. Solution:
-```javascript
-onKeyDown="if(event.keyCode==13) location.href='#apply3';"
-```
-
-Change `http://resources.infolinks.com/js/infolinks_main.js` to `//resources.infolinks.com/js/infolinks_main.js` or `httpS://resources.infolinks.com/js/infolinks_main.js`
+- Connecting regular view-controller to tab view-Controller
+- Git Branches and merge conflicts. We spent out night getting to the crux of this.
+- Camera implementation. 
 
 
 ## License
-© 2018 Outfit Picker
+© 2018 Forecast Fit
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
