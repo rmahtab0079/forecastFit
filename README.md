@@ -10,7 +10,7 @@ Team Members:
 - Rageeb Mahtab (Back-end)
 - Matthew Rodriguez (Back-end)
 - Meng Shi (UX Design)
-- Meng Lu (UX Design)
+- Lu Meng (UX Design)
 
 ## Video Walkthrough
 > ![Walkthrough](DemoHack.gif)
