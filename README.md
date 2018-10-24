@@ -1,6 +1,16 @@
 # *Forecast Fit*
 
-**Objective** An app that adds more time to your day by selecting a personalized outfit days in advance based on local weather and what's in your wardrobe.
+**Objective** An iOS app that adds more time to your day by pre-selecting a personalized outfit from your wardrobe days in advance based on local weather forecasts.
+
+## HackCooper Awards
+At the end of 24 hours, our project was awarded the **Most Innovative/Quirky Hack** out of 40 teams, and for **best use of Google Cloud Platform**. Our tech stack includes Google Cloud's Firebase and AutoML, Yahoo's Weather API, Xcode for application architecture, and Sketch for UX design.
+
+Team Members:
+- Yasin Ehsan (Project Manager/Front-end)
+- Rageeb Mahtab (Back-end)
+- Matthew Rodriguez (Back-end)
+- Meng Shi (UX Design)
+- Meng Lu (UX Design)
 
 ## Video Walkthrough
 > ![Walkthrough](DemoHack.gif)
